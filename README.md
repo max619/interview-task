@@ -13,7 +13,7 @@ Phill,2067831537,3502815654
 ### Task 1
 
 You will need to find a time period at which there was the largest number of guests in the hotel.
-Print the start of that time period and list of guests
+Print the that time period and list of guests that were present at thay time period
 
 ### Task 2
 
