@@ -33,6 +33,8 @@ def main():
             start_time = random.randint(0, MAX_TIME)
             end_time = random.randint(start_time, MAX_TIME)
 
+            name += "_%d-%d" % (start_time, end_time)
+
             output_file.write("%s,%d,%d" % (name, start_time, end_time))
             output_file.write(os.linesep)
 
