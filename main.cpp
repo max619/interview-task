@@ -29,6 +29,10 @@ static std::vector<GuestEntry> parseEntries(const char *fileName)
     std::vector<GuestEntry> entries;
 
     std::ifstream stream(fileName);
+    if (!stream)
+    {
+        throw std::runtime_error("Input file was not found");
+    }
 
     std::string line;
 
